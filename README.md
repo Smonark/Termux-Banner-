@@ -17,16 +17,14 @@ cd Termux-Banner
 
 # Run the banner setup script
 ./banner.sh
-
-🛠️ For Modification
+```
+ ## 🛠️ For Modification
 To customize your banner, run:
 
-bash
+```bash
 nano banner.sh
+```
 Find the line:
-
-mathematica
-Copy code
 Welcome Back Sir.
 Replace it with your own input message.
 
