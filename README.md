@@ -23,8 +23,8 @@ To customize your banner, run:
 
 ```bash
 nano banner.sh
-```
-Find the line:
+
+# Find the line:
 Welcome Back Sir.
-Replace it with your own input message.
+# Replace it with your own input message.
 
