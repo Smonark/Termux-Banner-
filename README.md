@@ -1,16 +1,20 @@
-# 🔥 Termux Banner - SHADOW Edition
+# Termux Banner Tool - SHADOW Edition 🧠
 
-A customizable and stylish banner script for Termux startup. Personalize your terminal greeting message with your own words, animations, and more!
+This tool allows you to create a custom terminal banner on Termux that welcomes you every time you open a session. You can personalize it with your own message, name, theme, and design — all with easy modifications.
 
 ---
 
-## 📥 Installation
+## 📥 Installation & Usage
 
-Clone the repository and run the banner script:
+Follow these commands step-by-step:
 
 ```bash
+# Clone the repository
 git clone https://github.com/Smonark/Termux-Banner-.git
-cd Termux-Banner-
-chmod +x banner.sh
+
+# Navigate to the directory
+cd Termux-Banner
+
+# Run the banner setup script
 ./banner.sh
-# Termux-Banner-
+
