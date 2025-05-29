@@ -52,7 +52,7 @@ msg_pad=$(( (cols - msg_len) / 2 ))
 
 for (( i=1; i<=msg_len; i++ )); do
     printf "\033[s"                     # Save cursor position                                           printf "\033[%sC" "$msg_pad"        # Move cursor right
-    printf "${GREEN}${BLINK}%s${RESET}" "${message:0:l}"
+    printf "${GREEN}${BLINK}%s${RESET}" "${message:0:i}"
     sleep 0.05
     printf "\r"
 done
